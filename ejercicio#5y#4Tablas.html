@@ -1,0 +1,117 @@
+<!--Exercise #4
+
+    Open up the exercise you did in INTRO-WEB-2 Exercise #5.
+
+    At the bottom of the page, add in a table about your family members. The columns should be:
+
+    Name
+    Gender
+    Age
+    Relationship
+    Add a link in the page that will take you to the family table.-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio #5 tablas</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        table, td {
+            border: 2px solid black;
+        }
+        
+        thead, tfoot{
+            background-color: rgb(19, 15, 231);
+            color: rgb(255, 255, 255);
+        }
+        th {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--Nombre-->
+    <h1>Omar Padilla</h1>
+    <a href="#MiFamilia" title="Datos de mi familia">Click para ver los datos de mi familia</a>
+<!--Descripcion-->
+    <p>Soy una persona seria, pero muy alegre, con muchas ganas de aprender Java y convertirme en un desarrollador Java Fullstack.</p>
+    <hr>
+    <hr>
+<!--Imagen-->
+    <img src="/assets/imagenes/Imagen curriculum.jpg" width="200">
+    <br>
+<!--Enlases-->
+    <a href="https://github.com/OmarPadilla22" target="_blank">Perfil GitHub</a>
+    <br>
+    <a href="https://www.linkedin.com/in/omar-fernando-padilla-l%C3%B3pez-b5baa6132/" target="_blank">Perfil Linkdln</a>
+    <br>
+<!--Lista 3 comidas favoritas-->
+    <h3>Lista de mis 3 comidas favoritas</h3>
+    <ul>
+        <li>Tacos al pastor</li>
+        <li>Pizza a la leña</li>
+        <li>Hamburgesas Carls Jr</li>
+    </ul>
+    <br>
+<!--Lista 3 canciones favoritas-->
+    <h3>Lista de mis 3 canciones favoritas</h3>
+    <ul>
+        <li>Whiskey in the jar - Metallica</li>
+        <li>I´m still in love with you - Sean Paul</li>
+        <li>Last kiss - Pearl Jam</li>
+    </ul>
+    <br>
+<!--Lista 3 peliculas favoritas-->
+    <h3>Lista de mis 3 peliculas favoritas</h3>
+    <ul>
+        <li>A bronx tale</li>
+        <li>The godfather I</li>
+        <li>Ace Ventura 2</li>
+    </ul>
+    
+<table>
+    <thead>
+        <tr>
+            <th id="MiFamilia"colspan="4">Mi familia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Nombre</th>
+            <th>Genero</th>
+            <th>Edad</th>
+            <th>Parentesco</t>
+        </tr>
+        <tr>
+            <td>Ramiro</td>
+            <td>Hombre</td>
+            <td>53</td>
+            <td>Papá</td>
+        </tr>
+        <tr>
+            <td>Griselda</td>
+            <td>Mujer</td>
+            <td>51</td>
+            <td>Mamá</td>
+        </tr>
+        <tr>
+            <td>Ramiro</td>
+            <td>Hombre</td>
+            <td>16</td>
+            <td>Hermano</td>
+        </tr>
+        <tr>
+            <td>Diana</td>
+            <td>Mujer</td>
+            <td>22</td>
+            <td>Hermana</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
